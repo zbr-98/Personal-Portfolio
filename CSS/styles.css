@@ -110,7 +110,15 @@ a{
 }
 .footer{
       margin: 20px auto;
+      margin-bottom: 10px;
 }
 .logo{
       margin: 7px;
+      width: 32px;
 }
+.copyright{
+      color: #EAF6F6;
+      font-size: small;
+      margin-bottom: 15px;
+}
+      
