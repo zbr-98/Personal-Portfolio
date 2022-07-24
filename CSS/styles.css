@@ -61,8 +61,37 @@ a{
       bottom: 5px;
 }
 .profile{
+      width: 30%;
+      margin: 100px auto;
+      line-height: 2;
+}
+.education{
+      margin-top: 100px;
+}
+.edu-row{
       width: 50%;
       margin: 100px auto;
+      text-align: left;
+      line-height: 2;
+}
+#course{
+      font-weight: bold;
+      
+}
+.jmi-img{
+      width:25%;
+      float: left;
+      margin-right: 30px;
+}
+.amu-img{
+      width:25%;
+      float: right;
+      margin-left: 30px;
+}
+.dma-img{
+      width:25%;
+      float: left;
+      margin-right: 30px;
 }
 .skills{
       margin-top: 100px;
@@ -110,15 +139,14 @@ a{
 }
 .footer{
       margin: 20px auto;
-      margin-bottom: 10px;
+      margin-bottom:10px ;
 }
 .logo{
-      margin: 7px;
-      width: 32px;
+      margin: 10px;
+      width: 31px;
 }
 .copyright{
       color: #EAF6F6;
       font-size: small;
       margin-bottom: 15px;
 }
-      
