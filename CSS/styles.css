@@ -44,7 +44,7 @@ a{
       padding-top: 28vh;
       height: 73vh;
 }
-.C3{
+.C4{
       background-color: #66BFBF;
       padding: 10px;
 }
@@ -117,6 +117,34 @@ a{
       margin-left: 30px;
 }
 
+.projects{
+      margin-top:100px;
+}
+#project-work{
+      margin-bottom: 80px;
+}
+.project-tile{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content:center;
+      margin: 30px 40px;
+}
+.repls{
+      margin:30px 40px;
+      border: 4px solid #d4eded;
+      text-decoration: none;
+      font-size: 1rem;
+      transition-duration: 1s;
+}
+.repls:hover{
+      border-color: #4abebe;
+      font-weight: bold;
+}
+.repls img{
+      height:250px;
+      height:250px;
+}
+
 .contact-me{
       width: 50%;
       margin: 100px auto;
@@ -125,7 +153,7 @@ a{
 .btn{
       margin: 40px auto;
       background-color: #11999E;
-      
+      margin-bottom:100px;
       width: 120px;
       height: 25px;
       border: #11999E solid;
@@ -155,32 +183,43 @@ a{
       margin-bottom: 15px;
 }
 header{
-      display: flex;
-      justify-content:flex-end;
       position: fixed;
       background-color:#EAF6F6;
-      /* height: 50px; */
       width:100%;
       top: 0;
 }
-ul.nav {
+.nav {
       display: flex;
-      max-width:max-content;
+      justify-content:flex-end;
       margin: 0;
       padding:0;
 }
 nav ul li {
       list-style: none;
-      padding: 0.8rem 0.5rem;
-      font-size: 1.2rem;
+      margin:0;
+      padding:0.8rem 0.1rem;
+      font-size: 1rem;
       font-family: 'Satisfy', cursive; 
+      transition-duration: 1s;
 }
 li a{
+      padding: 0.8rem 0.3rem;
       color: #11999E;
-      text-decoration: none;
-      
+      text-decoration: none;  
 }
 nav ul li:hover{
-      background-color:#d4eded;
+      background-color:#d4eded;  
+}
+
+@media only screen and (max-width:400){
       
+      nav ul li{
+            padding:0.5rem 0;
+      }
+      li a{
+            font-size: 0.2rem;
+            padding: 0.5rem 0;
+            color: #11999E;
+            text-decoration: none;  
+      }
 }
