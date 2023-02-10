@@ -182,33 +182,40 @@ a{
       font-size: small;
       margin-bottom: 15px;
 }
-header{
+div.navigation{
       position: fixed;
-      background-color:#EAF6F6;
-      width:100%;
-      top: 0;
+      justify-content: right;
+      width:5.5%;
+      top: 30vh;
+      margin-left: 10px;
 }
 .nav {
       display: flex;
-      justify-content:flex-end;
+      flex-direction:column;
       margin: 0;
       padding:0;
 }
 nav ul li {
+      
       list-style: none;
-      margin:0;
-      padding:0.8rem 0.1rem;
-      font-size: 1rem;
-      font-family: 'Satisfy', cursive; 
+      align-items: center;
+      margin-bottom: 20px;
+      height: 38px;
+      width: 38px;
       transition-duration: 1s;
+      border:1px solid #d4eded;
+      background-color: #d4eded;
+      border-radius: 30px;
 }
 li a{
-      padding: 0.8rem 0.3rem;
       color: #11999E;
       text-decoration: none;  
 }
+i{
+      margin:10px;
+}
 nav ul li:hover{
-      background-color:#d4eded;  
+      background-color:white; 
 }
 
 @media only screen and (max-width:400){
